@@ -1,0 +1,100 @@
+body{
+    font-size: 16px; /* 1em */
+margin: 0px auto;
+/* Por recomendacion del cliente*/
+max-width: 1078px;
+min-width: 1078px;
+}
+header input{
+    float: right;
+    margin-right: -230px;
+    margin-top: 15px;
+    
+}
+header nav{
+    margin-left: 220px;
+}
+header nav ul li{
+    color: lightgray;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 15px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 4px;
+    /* text-decoration: underline; */
+}
+#bgoffer{
+    position: relative;
+    left: -35px;
+    top: -406px;
+}
+#gramthams{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#paint{
+    float: right;
+}
+#primerSeccion{
+    margin-top: 10%;
+    height: 318px;
+}
+#primerSeccion article{
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: top;
+}
+#secc01art01{
+    margin-left: 30px;
+    width: 60%;
+}
+#secc01art02{
+    margin-left: 50px;
+    width: 30%;
+}
+#secc01art02 ul{
+    list-style: none;
+    margin-left: -40px;
+}
+#secc01art02 ul li:before{
+    color: #FF0099;
+    content: "• ";
+}
+#secc03art04{
+    /*padding-top: 40px;*/
+    margin-top: 40px;
+}
+#secc03art04 input[type="submit"]{
+    border-radius: 5px;
+    color: #8bc500;
+}
+#segundaSeccion article{
+    text-align: right;
+    margin-right: 165px;
+}
+#terceraSeccion article{
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+}
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+.colorazul{
+    color: #4267B3;
+}
+.colorrosa{
+    color: #FF0099;
+}
+.colorverde{
+    color: #8bc500;
+}
+.letragrande{
+    font-size: 3.5em;
+}
+.letramediana{
+    font-size: 2em;
+}
+.nito{
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+body{
+    /* 1 em */
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+
+}
+header{
+    background: #d1e3ee;
+}
+header nav{
+    background: #026dc6;
+    padding: 2px 0px;
+}
+header nav ul li{
+    /*border: 1px solid red;*/
+    color: white;
+    display: inline-block;
+    margin-right: 32px;
+}
+header nav form{
+    float: right;
+    margin-top: -37px;
+    margin-right: 20px;
+}
+#logo{
+    margin-top: -150px;
+}
+#seccion01 article{
+    text-align: center;
+}
+#seccion01 article img{
+    border: 5px solid rgba(150,150,150,0.5);
+}
+#seccion02 article{
+    display: inline-block;
+    vertical-align: top;
+    width: 32.8%;
+}
+#seccion02 article input[type="submit"]{
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    margin-left: 115px;
+    padding: 10px;
+}
+.unaSeccion{
+    font-size: 4.5em;
+}
+.nito{
+    font-weight: bold; /* negritas */
+}
+.otraSeccion{
+    font-size: 2.5em;
+}
